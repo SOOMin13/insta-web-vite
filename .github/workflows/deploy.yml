@@ -2,7 +2,8 @@ name: Github Actions 실행시켜보기
 # workflow
 on:
   push:
-    branches: - main
+    branches:
+      - main # 하이픈과 main 사이에 공백 추가
 
 # workflow는 여러 개의 job으로 이루어질 수 있다.
 jobs:

@@ -24,4 +24,4 @@ jobs:
       - name: Github Actions 자체 내장 변수 사용해보기
         run: |
           echo $GITHUB_REPOSITORY
-          ccho $GITHUB_SHA
+          echo $GITHUB_SHA

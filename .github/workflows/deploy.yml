@@ -2,7 +2,7 @@ name: Github Actions 실행시켜보기
 # workflow
 on:
   push:
-    branches: -main
+    branches: - main
 
 # workflow는 여러 개의 job으로 이루어질 수 있다.
 jobs:
